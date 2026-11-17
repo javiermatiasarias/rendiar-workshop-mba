@@ -1,0 +1,4 @@
+id,fecha,monto,moneda,descripcion
+G01,2026-11-10,12000,ARS,Traslado a cliente
+G02,2026-11-11,8500,,Almuerzo de trabajo
+G03,2026-11-12,-3000,ARS,Estacionamiento

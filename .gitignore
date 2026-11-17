@@ -1,0 +1,19 @@
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.swp
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+.codex/
+.claude/
+.vscode/
+.idea/
+
+# Material que se distribuye por separado
+_docente/
+_privado/

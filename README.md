@@ -46,7 +46,7 @@ Actualizá `ESTADO.md` con rutas reales, versiones y el siguiente paso. Para tu 
 
 ## Material de clase
 
-Consultá los [recursos y la presentación](00_guia/RECURSOS.md). El cuaderno se distribuye por separado.
+Consultá los [recursos](00_guia/RECURSOS.md). La presentación y el cuaderno se distribuyen por separado a través del docente o el campus.
 
 ## Versión del kit
 

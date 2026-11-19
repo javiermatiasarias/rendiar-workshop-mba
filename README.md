@@ -1,6 +1,6 @@
 # RendiAR · Workshop MBA
 
-Kit inicial para aprender a organizar trabajo con ChatGPT Work y producir artifacts de una propuesta de producto.
+Kit para aprender a organizar trabajo con ChatGPT Work y producir artifacts de una propuesta de producto.
 
 **Product, Technology & Operations 4.0 · 120 minutos · práctica guiada · sin nota.**
 
@@ -21,20 +21,25 @@ No necesitás instalar Git para seguir este recorrido. La copia descargada no se
 | Carpeta o archivo | Función |
 |---|---|
 | `00_guia/` | Inicio rápido, prompts y recursos. |
-| `01_fuentes/` | Brief y tres registros ficticios; conservar originales. |
+| `01_fuentes/` | Brief v02, política sintética y workbook con 75 operaciones; conservar originales. |
+| `01_fuentes/tickets/` | Espacio reservado para los tickets sintéticos de una etapa posterior. |
 | `02_trabajo/` | Encargo inicial y futuros borradores. |
 | `03_artifacts/` | Versiones revisadas que una persona acepte. |
 | `04_revision/` | Criterios, hallazgos y decisiones. |
 | `05_exportaciones/` | Formatos de entrega de versiones identificadas. |
-| `99_archivo/` | Versiones reemplazadas que se decida conservar. |
+| `99_archivo/` | Versiones reemplazadas que se decidió conservar. |
 | `INSTRUCCIONES.md` | Convenciones propuestas para el trabajo. |
 | `ESTADO.md` | Fuentes vigentes, decisiones pendientes y próximo paso. |
 
-La estructura es una convención del workshop. No es un requisito de la plataforma ni concede permisos. Los archivos `.gitkeep` solo mantienen visibles las carpetas inicialmente vacías en el repositorio; no son parte del ejercicio.
+La estructura es una convención del workshop. No es un requisito de la plataforma ni concede permisos. Los archivos `.gitkeep` sólo mantienen visibles las carpetas inicialmente vacías.
 
 ## Reglas y datos
 
-Las reglas R1–R3 están en el [brief](01_fuentes/brief_rendiar_v01.md). Los datos son sintéticos. Los problemas de G02 y G03 son intencionales: no completar la moneda ni corregir el monto por suposición.
+Las reglas R1–R7 están en la [política sintética](01_fuentes/politica_gastos_v01.md) y el escenario está explicado en el [brief v02](01_fuentes/brief_rendiar_v02.md). La fuente tabular vigente es `01_fuentes/gastos_ficticios.xlsx`, con 75 operaciones identificadas de G01 a G75.
+
+Los datos, comercios e identificaciones fiscales son ficticios. Algunos faltantes y valores inválidos son intencionales. No completarlos por suposición.
+
+Los tickets todavía no están incluidos. Por eso, R1, R2 y R7 pueden trabajarse ahora; R3–R6 deben quedar marcadas como pendientes de fuente y no como comprobadas.
 
 La hipótesis de valor todavía no está validada. Revisar artifacts no demuestra que una aplicación funcione ni sustituye pruebas con usuarios.
 
@@ -50,4 +55,4 @@ Consultá los [recursos](00_guia/RECURSOS.md). La presentación y el cuaderno se
 
 ## Versión del kit
 
-`v0.1.0` · Preparación inicial, 17 de noviembre de 2026. Ver [CHANGELOG.md](CHANGELOG.md). Esta copia empieza sin artifacts aceptados ni pruebas registradas.
+`v0.2.0` · Dataset ampliado y política de gastos, 19 de noviembre de 2026. Ver [CHANGELOG.md](CHANGELOG.md). Esta versión está lista para revisión; aún no incorpora tickets ni artifacts aceptados.

@@ -55,4 +55,4 @@ Consultá los [recursos](00_guia/RECURSOS.md). La presentación y el cuaderno se
 
 ## Versión del kit
 
-`v0.3.0` · Tickets sintéticos incorporados, 19 de noviembre de 2026. Ver [CHANGELOG.md](CHANGELOG.md). Esta versión está lista para revisión y aún no contiene artifacts aceptados.
+`v0.3.1` · Fuentes sintéticas verificadas, 19 de noviembre de 2026. Ver [CHANGELOG.md](CHANGELOG.md) y el [reporte de verificación](04_revision/verificacion_fuentes_v01.md). Esta versión aún no contiene artifacts aceptados.

@@ -1,5 +1,13 @@
 # Cambios del kit
 
+## v0.3.1 — 2026-11-19
+
+- Verificación de los 75 IDs y los 75 totales impresos mediante inventario, OCR y comparación con el workbook.
+- Cobertura, faltante G06 y duplicado G07 confirmados.
+- Excepciones R1–R6 confirmadas sin inconsistencias inesperadas.
+- G03 y G23 documentados como excepciones compuestas de R2 y R5.
+- Reporte resumido y detalle CSV por operación incorporados en `04_revision/`.
+
 ## v0.3.0 — 2026-11-19
 
 - 75 tickets PNG sintéticos incorporados para 74 IDs de operación.

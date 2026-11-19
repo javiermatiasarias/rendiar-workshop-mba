@@ -1,0 +1,76 @@
+id,archivos_ticket,id_impreso,monto_excel,totales_ticket,resultado_importe,resultado_fecha,excepciones_esperadas,resultado_auditoria
+G01,G01.png,G01,12000,12000,Coincide,Coincide,,OK
+G02,G02.png,G02,8500,8500,Coincide,Coincide,R1: falta currency,OK
+G03,G03.png,G03,-3000,3000,Excepción intencional,Coincide,R2: monto -3000; R5: total diferente,OK
+G04,G04.png,G04,32500,32500,Coincide,Coincide,R6: alcohol,OK
+G05,G05.png,G05,24500,26800,Excepción intencional,Coincide,R5: total diferente,OK
+G06,,,78,,Sin ticket intencional,Sin ticket intencional,R3: ticket faltante,OK
+G07,G07.png | G07_duplicado.png,G07 | G07,6800,6800 | 6800,Coincide,Coincide,R3: ticket duplicado,OK
+G08,G08.png,G08,18900,18900,Coincide,Coincide,R1: falta fiscal,OK
+G09,G09.png,G09,14600,14600,Coincide,Excepción intencional,R4: fecha diferente,OK
+G10,G10.png,G10,92,92,Coincide,Coincide,,OK
+G11,G11.png,G11,85350,85350,Coincide,Coincide,,OK
+G12,G12.png,G12,92700,92700,Coincide,Coincide,,OK
+G13,G13.png,G13,9050,9050,Coincide,Coincide,,OK
+G14,G14.png,G14,16400,16400,Coincide,Coincide,,OK
+G15,G15.png,G15,23750,23750,Coincide,Coincide,,OK
+G16,G16.png,G16,31100,31100,Coincide,Coincide,,OK
+G17,G17.png,G17,38450,38450,Coincide,Coincide,,OK
+G18,G18.png,G18,176,176,Coincide,Coincide,R1: falta time,OK
+G19,G19.png,G19,127,127,Coincide,Coincide,,OK
+G20,G20.png,G20,60500,60500,Coincide,Coincide,,OK
+G21,G21.png,G21,67850,67850,Coincide,Coincide,,OK
+G22,G22.png,G22,75200,75200,Coincide,Coincide,,OK
+G23,G23.png,G23,0,82550,Excepción intencional,Coincide,R2: monto 0; R5: total diferente,OK
+G24,G24.png,G24,89900,89900,Coincide,Coincide,,OK
+G25,G25.png,G25,6250,6250,Coincide,Coincide,,OK
+G26,G26.png,G26,13600,13600,Coincide,Coincide,,OK
+G27,G27.png,G27,20950,20950,Coincide,Coincide,,OK
+G28,G28.png,G28,36,36,Coincide,Coincide,,OK
+G29,G29.png,G29,117,117,Coincide,Coincide,,OK
+G30,G30.png,G30,43000,43000,Coincide,Coincide,,OK
+G31,G31.png,G31,50350,50350,Coincide,Coincide,R1: falta merchant,OK
+G32,G32.png,G32,57700,57700,Coincide,Coincide,,OK
+G33,G33.png,G33,65050,65050,Coincide,Coincide,,OK
+G34,G34.png,G34,72400,72400,Coincide,Coincide,,OK
+G35,G35.png,G35,79750,79750,Coincide,Coincide,,OK
+G36,G36.png,G36,87100,87100,Coincide,Coincide,,OK
+G37,G37.png,G37,94450,94450,Coincide,Coincide,,OK
+G38,G38.png,G38,51,51,Coincide,Coincide,,OK
+G39,G39.png,G39,107,107,Coincide,Coincide,,OK
+G40,G40.png,G40,25500,25500,Coincide,Coincide,,OK
+G41,G41.png,G41,32850,32850,Coincide,Coincide,,OK
+G42,G42.png,G42,40200,40200,Coincide,Coincide,R1: falta description,OK
+G43,G43.png,G43,47550,47550,Coincide,Coincide,,OK
+G44,G44.png,G44,54900,54900,Coincide,Coincide,,OK
+G45,G45.png,G45,62250,62250,Coincide,Coincide,,OK
+G46,G46.png,G46,69600,69600,Coincide,Coincide,,OK
+G47,G47.png,G47,76950,76950,Coincide,Coincide,,OK
+G48,G48.png,G48,66,66,Coincide,Coincide,,OK
+G49,G49.png,G49,97,97,Coincide,Coincide,,OK
+G50,G50.png,G50,8000,8000,Coincide,Coincide,,OK
+G51,G51.png,G51,15350,15350,Coincide,Coincide,,OK
+G52,G52.png,G52,22700,22700,Coincide,Coincide,,OK
+G53,G53.png,G53,30050,30050,Coincide,Coincide,,OK
+G54,G54.png,G54,37400,37400,Coincide,Coincide,,OK
+G55,G55.png,G55,44750,44750,Coincide,Coincide,,OK
+G56,G56.png,G56,52100,52100,Coincide,Coincide,,OK
+G57,G57.png,G57,59450,59450,Coincide,Coincide,,OK
+G58,G58.png,G58,81,81,Coincide,Coincide,,OK
+G59,G59.png,G59,87,87,Coincide,Coincide,R1: falta currency,OK
+G60,G60.png,G60,81500,81500,Coincide,Coincide,,OK
+G61,G61.png,G61,88850,88850,Coincide,Coincide,,OK
+G62,G62.png,G62,5200,5200,Coincide,Coincide,,OK
+G63,G63.png,G63,12550,12550,Coincide,Coincide,R1: falta fiscal,OK
+G64,G64.png,G64,19900,19900,Coincide,Coincide,,OK
+G65,G65.png,G65,27250,27250,Coincide,Coincide,,OK
+G66,G66.png,G66,34600,34600,Coincide,Coincide,,OK
+G67,G67.png,G67,41950,41950,Coincide,Coincide,,OK
+G68,G68.png,G68,96,96,Coincide,Coincide,,OK
+G69,G69.png,G69,77,77,Coincide,Coincide,,OK
+G70,G70.png,G70,64000,64000,Coincide,Coincide,,OK
+G71,G71.png,G71,71350,71350,Coincide,Coincide,,OK
+G72,G72.png,G72,78700,78700,Coincide,Coincide,,OK
+G73,G73.png,G73,86050,86050,Coincide,Coincide,,OK
+G74,G74.png,G74,93400,93400,Coincide,Coincide,,OK
+G75,G75.png,G75,9750,9750,Coincide,Coincide,,OK

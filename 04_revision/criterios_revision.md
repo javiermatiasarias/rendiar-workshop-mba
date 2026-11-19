@@ -1,33 +1,33 @@
 # Criterios de revisión
 
-Estado inicial: ninguno de estos casos fue ejecutado. Registrar evidencia después de revisar un output concreto.
+Las fuentes fueron verificadas el 19 de noviembre de 2026. Los artifacts de producto todavía no fueron ejecutados; registrar nueva evidencia al revisar cada output.
 
 ## Casos ejecutables con el workbook
 
 | Caso | Condición intencional | Qué debería expresar el diseño | Evidencia | Resultado |
 |---|---|---|---|---|
-| G01 | Completo | Permite revisar; la confirmación final sigue siendo humana | Por registrar | Por revisar |
-| G02 | Sin moneda | Señala faltante; la persona aporta el dato o queda pendiente | Por registrar | Por revisar |
-| G03 | Monto negativo | Señala monto inválido; requiere corrección aportada por la persona | Por registrar | Por revisar |
-| G08 | Sin identificación fiscal | Señala el campo faltante según R1 | Por registrar | Por revisar |
-| G18 | Sin hora | Señala el campo faltante según R1 | Por registrar | Por revisar |
-| G23 | Monto cero | Señala monto inválido según R2 | Por registrar | Por revisar |
-| G31 | Sin razón social | Señala el campo faltante según R1 | Por registrar | Por revisar |
-| G42 | Sin descripción | Señala el campo faltante según R1 | Por registrar | Por revisar |
-| G59 | Sin moneda | Señala el campo faltante según R1 | Por registrar | Por revisar |
-| G63 | Sin identificación fiscal | Señala el campo faltante según R1 | Por registrar | Por revisar |
+| G01 | Completo | Permite revisar; la confirmación final sigue siendo humana | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G02 | Sin moneda | Señala faltante; la persona aporta el dato o queda pendiente | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G03 | Monto negativo | Señala R2 y la diferencia R5; requiere corrección humana | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G08 | Sin identificación fiscal | Señala el campo faltante según R1 | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G18 | Sin hora | Señala el campo faltante según R1 | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G23 | Monto cero | Señala R2 y la diferencia R5; requiere corrección humana | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G31 | Sin razón social | Señala el campo faltante según R1 | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G42 | Sin descripción | Señala el campo faltante según R1 | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G59 | Sin moneda | Señala el campo faltante según R1 | `verificacion_fuentes_v01.csv` | Fuente verificada |
+| G63 | Sin identificación fiscal | Señala el campo faltante según R1 | `verificacion_fuentes_v01.csv` | Fuente verificada |
 
 ## Casos con tickets
 
-Las fuentes están disponibles. Registrar resultado y evidencia sólo después de comparar cada imagen con el workbook.
+Las fuentes están disponibles y fueron comparadas. Volver a registrar evidencia al comprobar que los artifacts representen estos casos.
 
 | Caso | Escenario previsto | Regla principal | Estado |
 |---|---|---|---|
-| G04 | Ticket con bebida alcohólica entre varios conceptos | R6 | Por revisar |
-| G05 | Total del ticket diferente del monto declarado | R5 | Por revisar |
-| G06 | Ticket faltante | R3 | Por revisar |
-| G07 | Ticket duplicado | R3 | Por revisar |
-| G09 | Fecha del ticket diferente de la declarada | R4 | Por revisar |
+| G04 | Ticket con bebida alcohólica entre varios conceptos | R6 | Fuente verificada |
+| G05 | Total del ticket diferente del monto declarado | R5 | Fuente verificada |
+| G06 | Ticket faltante | R3 | Fuente verificada |
+| G07 | Ticket duplicado | R3 | Fuente verificada |
+| G09 | Fecha del ticket diferente de la declarada | R4 | Fuente verificada |
 
 ## Comprobar el paquete
 

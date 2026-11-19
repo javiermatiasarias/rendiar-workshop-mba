@@ -2,13 +2,13 @@
 
 ## Estado actual
 
-- Etapa: preparación del ejercicio, versión v0.3.0 lista para revisión.
+- Etapa: fuentes preparadas y verificadas, versión v0.3.1 lista para revisión docente.
 - Acceso de Work a esta carpeta: por comprobar en cada entorno.
 - Fuente tabular: workbook sintético con 75 operaciones, G01–G75.
 - Tickets sintéticos: incorporados; 75 imágenes para 74 IDs, con G06 faltante y G07 duplicado de manera intencional.
 - Artifact aceptado: ninguno.
 - Reglas del ejercicio: R1–R7 definidas en la política v01.
-- Última decisión humana: incorporar tickets sintéticos como segundo hito y revisarlos antes de continuar.
+- Última comprobación: IDs, importes y excepciones auditados sin inconsistencias inesperadas.
 
 ## Fuentes vigentes
 
@@ -18,6 +18,11 @@
 - `01_fuentes/tickets/` — tickets sintéticos, índice y convención de la fuente visual.
 
 La versión anterior del brief se conserva en `99_archivo/`. El CSV inicial de tres registros fue reemplazado por el workbook y ya no es una fuente vigente.
+
+## Evidencia de verificación
+
+- `04_revision/verificacion_fuentes_v01.md` — síntesis, método y conclusión.
+- `04_revision/verificacion_fuentes_v01.csv` — resultado por cada ID.
 
 ## Registro de artifacts
 
@@ -31,7 +36,7 @@ La versión anterior del brief se conserva en `99_archivo/`. El CSV inicial de t
 
 ## Próximo paso
 
-Revisar este hito: abrir una muestra de tickets, comprobar legibilidad, conceptos, totales y casos intencionales contra el workbook. No modificar la presentación hasta aprobar esta fuente visual.
+Revisar y aprobar este hito. No modificar la presentación hasta confirmar la matriz de excepciones, especialmente que G03 y G23 activan R2 y R5 simultáneamente.
 
 ## Retomar
 

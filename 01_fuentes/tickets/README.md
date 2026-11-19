@@ -1,11 +1,25 @@
-# Tickets sintéticos — pendientes
+# Tickets sintéticos
 
-Esta versión del kit todavía no incluye imágenes de tickets.
+Fuente visual del caso RendiAR. Todos los comprobantes son ficticios y muestran la leyenda “Documento sintético · No válido fiscalmente”.
 
-En una etapa posterior se incorporará un archivo por operación con el mismo identificador, por ejemplo `G01.png` hasta `G75.png`. Los tickets podrán incluir varios conceptos y casos intencionales de discrepancia.
+## Contenido
 
-Hasta entonces:
+- 75 archivos PNG en total.
+- 74 operaciones con al menos un ticket asociado.
+- Cuatro conceptos por ticket.
+- Fecha, hora, moneda, razón social, identificación fiscal y total visibles.
+- `indice_tickets.csv` relaciona IDs y archivos sin describir todas las discrepancias.
 
-- no inventar ni simular el contenido de un ticket;
-- no afirmar que se comprobaron las reglas R3–R6;
-- registrar esas verificaciones como pendientes de fuente.
+## Convención
+
+El nombre principal coincide con el ID de la operación: `G01.png`, `G02.png`, etc. El campo `descripcion` del Excel es el motivo empresarial declarado y no aparece como concepto del ticket.
+
+## Casos intencionales
+
+- G04 contiene una bebida alcohólica entre varios conceptos.
+- G05 tiene un total diferente del monto declarado en el Excel.
+- G06 no tiene ticket.
+- G07 tiene un ticket principal y una copia duplicada idéntica.
+- G09 tiene una fecha diferente de la declarada.
+
+Estos casos permiten ejecutar R3–R6. No corregir ni descartar automáticamente: señalar la discrepancia y conservar la decisión humana.

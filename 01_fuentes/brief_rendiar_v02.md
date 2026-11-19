@@ -23,11 +23,11 @@ La `descripcion` expresa el motivo declarado por la persona. No replica los conc
 - Diseñar el recorrido de corrección, nueva comprobación, salida pendiente y confirmación humana.
 - Producir artifacts de concepto y requisitos, process flow, service blueprint, wireframe y revisión.
 
-## Tickets: estado de la fuente
+## Tickets: fuente visual
 
-Los tickets sintéticos todavía no están incluidos. Se incorporarán en una etapa posterior con el mismo identificador de operación. Hasta entonces, las reglas que comparan Excel y ticket deben mostrarse como previstas o pendientes de fuente, nunca como verificadas.
+Usar las imágenes de `01_fuentes/tickets/` y su índice. Cada ticket usa el ID de la operación y contiene varios conceptos. La comparación debe usar el total y conservar los conceptos por separado; no se debe interpretar `descripcion` como si fuera el detalle del ticket.
 
-Cuando existan, un ticket podrá contener varios conceptos. La comparación deberá usar el total y conservar los conceptos por separado; no se debe inventar su contenido a partir de `descripcion`.
+La fuente incluye casos intencionales de ticket faltante, duplicado, total o fecha diferentes y un concepto de bebida alcohólica. Deben detectarse mediante comparación, sin corregir ni decidir automáticamente.
 
 ## Reglas
 
@@ -35,10 +35,10 @@ La definición completa y su estado están en `politica_gastos_v01.md`:
 
 - R1: campos obligatorios completos.
 - R2: monto mayor que cero.
-- R3: ticket existente y legible — pendiente hasta incorporar tickets.
-- R4: coincidencia de datos principales entre declaración y ticket — pendiente.
-- R5: coincidencia entre monto declarado y total del ticket — pendiente.
-- R6: bebidas alcohólicas no reembolsables — pendiente de observar conceptos del ticket.
+- R3: ticket existente, único y legible.
+- R4: coincidencia de datos principales entre declaración y ticket.
+- R5: coincidencia entre monto declarado y total del ticket.
+- R6: bebidas alcohólicas no reembolsables.
 - R7: confirmación explícita del empleado después de la revisión.
 
 ## Fuera del ejercicio

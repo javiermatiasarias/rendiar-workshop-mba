@@ -1,5 +1,13 @@
 # Cambios del kit
 
+## v0.3.0 — 2026-11-19
+
+- 75 tickets PNG sintéticos incorporados para 74 IDs de operación.
+- Cada ticket contiene cuatro conceptos y datos comparables con el workbook.
+- G06 queda sin ticket y G07 incluye un duplicado idéntico de manera intencional.
+- Casos G04, G05 y G09 permiten practicar política de alcohol, diferencia de total y diferencia de fecha.
+- Índice de archivos y documentación de reglas R3–R6 actualizados.
+
 ## v0.2.0 — 2026-11-19
 
 - Fuente tabular ampliada a 75 operaciones sintéticas, G01–G75, en un workbook con diccionario de campos.

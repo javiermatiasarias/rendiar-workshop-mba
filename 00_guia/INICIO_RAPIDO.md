@@ -12,7 +12,7 @@ No necesitás usar comandos de Git para esta práctica. Descargar un ZIP crea un
 
 Abrí `README.md`, `INSTRUCCIONES.md` y `ESTADO.md`. Los archivos `.md` son texto con formato simple. Consultá el brief v02, la política v01 y el workbook dentro de `01_fuentes`.
 
-El workbook contiene 75 operaciones, G01–G75. Los tickets todavía no están disponibles: cualquier comprobación que dependa de ellos debe quedar pendiente.
+El workbook contiene 75 operaciones, G01–G75. La carpeta `01_fuentes/tickets/` contiene la fuente visual para compararlas, incluidos casos intencionales de faltante, duplicado y discrepancia.
 
 ## 3. Compartir las fuentes con Work
 
@@ -39,6 +39,6 @@ Compartí `ESTADO.md` y las fuentes o versiones que enumera. Pedí a Work que id
 - Sin acceso local: adjuntar las fuentes.
 - Sin permiso de escritura: descargar el archivo y guardarlo manualmente.
 - Sin un formato editable específico: pedir otro formato disponible y registrar la limitación.
-- Sin una fuente o un dato: dejarlo pendiente, sin inventarlo. En particular, no simular contenido de tickets todavía.
+- Sin una fuente o un dato: dejarlo pendiente, sin inventarlo. No reconstruir un ticket faltante por suposición.
 
 Referencias: [descargar ZIP en GitHub](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives) · [introducción oficial a ChatGPT Work](https://learn.chatgpt.com/docs/get-started-with-work).

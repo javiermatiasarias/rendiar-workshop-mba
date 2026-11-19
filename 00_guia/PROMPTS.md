@@ -4,8 +4,8 @@ Copiá un prompt por vez, después de compartir sus fuentes. Conservamos los té
 
 | Práctica | Entrada principal | Tiempo orientativo |
 |---|---|---|
-| P1 | Brief, política y workbook | 9 min |
-| P2 | Concepto y requisitos revisados; workbook | 6 min |
+| P1 | Brief, política, workbook y tickets | 9 min |
+| P2 | Concepto y requisitos revisados; fuentes del caso | 6 min |
 | P3 | Process flow y requisitos revisados | 7 min |
 | P4 | Requisitos, flow y blueprint revisados | 5 min |
 | P5 | Los cuatro artifacts vigentes y criterios de revisión | 5 min |
@@ -15,11 +15,11 @@ Las pausas de comprobación forman parte de la práctica. No tratar los resultad
 ## P1 — Concepto y requisitos
 
 ```text
-Leé el brief v02, la política v01 y el workbook de 75 operaciones ficticias que te comparto. Antes de producir, indicá qué archivos pudiste consultar, confirmá la cantidad de operaciones y señalá si falta alguno.
+Leé el brief v02, la política v01, el workbook de 75 operaciones y la carpeta de tickets sintéticos que te comparto. Antes de producir, indicá qué fuentes pudiste consultar, confirmá las cantidades y señalá faltantes o duplicados.
 
-Prepará un borrador breve de concepto y requisitos: usuario, problema, hipótesis de valor, alcance, exclusiones y reglas R1–R7. Para cada regla, incluí un caso y un resultado esperado. Diferenciá reglas ejecutables ahora de las que dependen de tickets todavía no disponibles.
+Prepará un borrador breve de concepto y requisitos: usuario, problema, hipótesis de valor, alcance, exclusiones y reglas R1–R7. Para cada regla, incluí un caso y un resultado esperado.
 
-Usá G01–G10 como muestra de referencia y conservá los problemas intencionales. Separá información aportada, propuestas y decisiones pendientes. No inventes contenido de tickets ni presentes la hipótesis de valor como un beneficio medido.
+Usá G01–G10 como muestra de referencia y conservá los problemas intencionales. Separá información aportada, propuestas y decisiones pendientes. No corrijas discrepancias automáticamente ni presentes la hipótesis de valor como un beneficio medido.
 
 Entregá un documento editable para revisión. No lo marques como aceptado.
 ```
@@ -31,7 +31,7 @@ Usá la versión de concepto y requisitos que te comparto como referencia. Indic
 
 Proponé un process flow de revisión de un gasto, diferenciando acciones del empleado y del sistema propuesto. Incluí el recorrido normal, corrección de datos, nueva comprobación y salida pendiente.
 
-Recorré G01, G02 y G03. Señalá qué regla determina cada decisión. R3–R6 deben aparecer como comprobaciones previstas, pendientes de la fuente ticket. El recorrido termina en “Gasto preparado para presentar” únicamente después de la confirmación explícita del empleado.
+Recorré G01, G02, G03, G04, G05, G06, G07 y G09. Señalá qué regla determina cada decisión. El recorrido termina en “Gasto preparado para presentar” únicamente después de resolver alertas y obtener la confirmación explícita del empleado.
 
 Entregá el diagrama en un formato editable disponible y una breve explicación de sus decisiones. Si una regla no está definida, registrala como pendiente.
 ```
@@ -55,7 +55,7 @@ Entregá un diagrama editable y señalá cualquier discrepancia con el flow.
 ```text
 Usá los requisitos, el flow y el blueprint que te comparto. Proponé un wireframe anotado para revisar el gasto G02.
 
-Mostrá los datos relevantes, la moneda faltante, un mensaje específico y las acciones disponibles. “Confirmar gasto” debe quedar bloqueado mientras no se cumplan R1 y R2. La persona debe poder corregir el dato o dejar el gasto pendiente. Señalá que la validación contra ticket todavía no está disponible.
+Mostrá los datos relevantes, la moneda faltante, el ticket asociado, un mensaje específico y las acciones disponibles. “Confirmar gasto” debe quedar bloqueado mientras existan incumplimientos. La persona debe poder corregir el dato o dejar el gasto pendiente.
 
 Anotá las condiciones de habilitación y el resultado previsto de cada acción. Explicá también cómo cambiaría el estado de la pantalla para G03, sin corregir automáticamente su monto.
 
@@ -67,7 +67,7 @@ Entregá una propuesta editable de baja fidelidad. Diferenciá comportamiento pr
 ```text
 Revisá conjuntamente los requisitos, process flow, service blueprint y wireframe que te comparto. Identificá cada archivo y su versión.
 
-Recorré G01, G02, G03, G08, G18 y G23. Comprobá campos, reglas ejecutables, acciones, tratamiento de errores, salida pendiente y confirmación del empleado. Para R3–R6, comprobá únicamente que los artifacts las marquen como pendientes de fuente.
+Recorré G01, G02, G03, G04, G05, G06, G07, G08, G09, G18 y G23. Comprobá campos, comparación con tickets, reglas, acciones, tratamiento de errores, salida pendiente y confirmación del empleado.
 
 Entregá una tabla con caso, criterio, artifact y versión, ubicación de la evidencia, hallazgo y cambio propuesto. Separá discrepancias de sugerencias de mejora. Si no encontrás una discrepancia, indicá qué comprobaste y con qué evidencia.
 
